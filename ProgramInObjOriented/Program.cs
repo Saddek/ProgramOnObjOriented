@@ -9,7 +9,7 @@ namespace ProgramInObjOriented
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main111(string[] args)
         {
             MaBibliotheque.Bonjour bonjour = new MaBibliotheque.Bonjour();
             bonjour.DireBonjour();
@@ -21,9 +21,9 @@ namespace ProgramInObjOriented
 
             Console.WriteLine(Generateur.ObtenirIdentifiantUnique());
 
-            string chaine = "12345".Crypte();
+            /*string chaine = "12345".Crypte();
             Encodage.Crypte("12345");
-            Thread.Sleep(10000);
+            Thread.Sleep(10000);*/
         }
     }
 }

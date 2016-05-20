@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="partie1_4_LA_POO_ET_LE_Csharp\Animal.cs" />
+    <Compile Include="partie1_4_LA_POO_ET_LE_Csharp\Chat.cs" />
+    <Compile Include="partie1_4_LA_POO_ET_LE_Csharp\Chien.cs" />
+    <Compile Include="partie1_4_LA_POO_ET_LE_Csharp\ChienMuet.cs" />
+    <Compile Include="partie1_4_LA_POO_ET_LE_Csharp\ChienMuetAvecSyntheseVocale.cs" />
+    <Compile Include="partie1_4_LA_POO_ET_LE_Csharp\Program_P1_4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
