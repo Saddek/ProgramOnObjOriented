@@ -9,7 +9,7 @@ namespace ProgramInObjOriented.partie1_4_LA_POO_ET_LE_Csharp
 {
     class Program_P1_4
     {
-        static void Main(string[] args)
+        static void Main2112121(string[] args)
         {
             /*Animal animal = new Animal { NombreDePattes = 4 };
             animal.Respirer();

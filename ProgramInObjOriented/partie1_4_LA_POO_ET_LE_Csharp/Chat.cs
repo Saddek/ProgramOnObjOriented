@@ -23,5 +23,11 @@ namespace ProgramInObjOriented.partie1_4_LA_POO_ET_LE_Csharp
         {
             Console.WriteLine("Miaou");
         }
+        private Chien.Coeur coeur = new Chien.Coeur("");
+
+        public void Mourir()
+        {
+            coeur.Stop();
+        }
     }
 }

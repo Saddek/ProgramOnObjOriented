@@ -46,5 +46,26 @@ namespace ProgramInObjOriented.partie1_4_LA_POO_ET_LE_Csharp
             base.Manger();
             Console.WriteLine("Remuer la queue");
         }
+
+
+        private Coeur coeur = new Coeur("60");
+
+        public void Mourir()
+        {
+            coeur.Stop();
+        }
+
+        public class Coeur
+        {
+            protected string RateCoeur;
+            public Coeur(string RateCoeur)
+            {
+                this.RateCoeur = RateCoeur;
+            }
+            public void Stop()
+            {
+                Console.WriteLine("The end");
+            }
+        }
     }
 }
